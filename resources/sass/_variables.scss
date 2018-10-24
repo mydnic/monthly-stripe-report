@@ -1,20 +1,18 @@
-
-// Body
-$body-bg: #f8fafc;
-
 // Typography
-$font-family-sans-serif: "Nunito", sans-serif;
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
+$family-primary: "Montserrat", sans-serif;
 
-// Colors
-$blue: #3490dc;
-$indigo: #6574cd;
-$purple: #9561e2;
-$pink: #f66D9b;
-$red: #e3342f;
-$orange: #f6993f;
-$yellow: #ffed4a;
-$green: #38c172;
-$teal: #4dc0b5;
-$cyan: #6cb2eb;
+// Overwrite Bulma Colors
+// $white: hsl(0, 0%, 100%);
+// $black: hsl(0, 0%, 4%);
+$light: #8D8D8F;
+$dark: #303133;
+$primary: #325fff;
+$link: #50514F;
+$info: #F25F5C;
+$success: #00c700;
+$grey: #c4c4c4;
+// $warning: hsl(48, 100%, 67%);
+// $danger: #F25F5C;
+
+$twitter: #00aced;
+
