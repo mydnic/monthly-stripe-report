@@ -40,10 +40,10 @@
                     </div>
                 @else
                     <a class="navbar-item" href="{{ route('login') }}">
-                        @lang('auth.login')
+                        Login
                     </a>
                     <a class="navbar-item" href="{{ route('register') }}">
-                        @lang('auth.register')
+                        Register
                     </a>
                 @endauth
             </div>

@@ -96,7 +96,7 @@
 
                         <div class="field">
                             <label class="label" for="password-confirm">
-                                @lang('fields.password_confirmation')
+                                Confirm Password
                             </label>
 
                             <div class="control">
@@ -110,23 +110,9 @@
                         </div>
 
                         <div class="field">
-                            <div class="checkbox">
-                                <label class="checkbox">
-                                    <input type="checkbox" name="terms" value="1">
-                                    I agree to the <a target="_blank" href="{{ route('privacy') }}">Privacy Policy</a>
-                                </label>
-                            </div>
-                            @if ($errors->has('terms'))
-                                <p class="help is-danger">
-                                    {{ $errors->first('terms') }}
-                                </p>
-                            @endif
-                        </div>
-
-                        <div class="field">
                             <div class="control">
                                 <button type="submit" class="button is-primary is-large">
-                                    @lang('auth.register')
+                                    Register
                                 </button>
                             </div>
                         </div>

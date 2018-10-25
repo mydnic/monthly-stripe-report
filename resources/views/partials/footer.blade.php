@@ -2,10 +2,10 @@
     <div class="container">
         <div class="columns">
             <div class="column">
-                <h3 class="title is-4 has-text-white is-uppercase">
+                <h3 class="title is-4 is-uppercase">
                     Stripe Monthly Export
                 </h3>
-                <div class="has-text-grey">
+                <div class="">
                     <p><i class="fa fa-copyright"></i> {{ date('Y') }}</p>
                     <p>My Dymanic Production SPRL</p>
                 </div>
